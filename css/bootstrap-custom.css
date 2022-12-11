@@ -1,0 +1,41 @@
+a{
+	outline:0 !important;	
+}
+
+.navbar-dark {
+	background-color:transparent!important;
+	font-size:20px;
+	color: #fff;
+	font-family: 'Poiret One', cursive;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color:#FFF;	
+	font-weight:400;
+	padding-right: 30px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:#fff;
+}
+.navbar-dark .navbar-nav .active .nav-link{
+	color:#fff;
+}
+.navbar-dark .navbar-nav .active .nav-link:hover{
+	color: #fff;
+}
+/*Altura definida para el Carousel manteniendo el aspecto de la imagen*/
+.carousel .carousel-item {
+  	height: 500px;
+}
+.carousel-item img {
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+
+
+
+
+
+

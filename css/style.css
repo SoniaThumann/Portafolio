@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,700&family=Poiret+One&display=swap');
+
+body{
+	font-family: 'Poiret One', cursive;
+	color: #fff;
+	background-color: #000;
+	font-size: 20px;
+}
+header{
+	background-color: #212529;
+	position: relative;
+	width: 100%;
+	padding: 5px 0;
+	font-family: 'Bodoni Moda', serif;
+}
+header img{
+	width: 120px;
+	padding-bottom: 10px;
+}
+#hero {
+	background-image: url("../img/pexels-derice-jason-fahnkow-1595239.jpg");
+	background-size:cover;
+	background-position: center;
+	padding-bottom: 200px;
+	padding-top: 200px;
+}
+#hero h1{
+	font-family: 'Bodoni Moda', serif;
+	color: #fff;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+	padding-left: 160px;
+}
+#acerca {
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 90px;
+}
+#acerca p{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+h2{
+	font-family: 'Bodoni Moda', serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+	padding-bottom: 20px;
+}
+#acerca .la-camera, .la-laptop, .la-pen-nib, .la-utensils{
+	font-size: 60px;
+	padding-bottom: 20px;
+}
+
+#acerca h4{
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+h4{
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-top: 20px;
+	text-align: center;
+}
+#food{
+	margin-bottom: 90px;
+}
+img{
+	padding-top: 25px;
+}
+.font{
+	font-size: 17px;
+}
+
+#fashion, #impresos, #community, #contacto {
+	margin-bottom: 90px;
+}
+#community ul{
+	padding-top: 40px;
+}
+
+.btn-gris{
+	color: #fff;
+	background-color: #212529;
+}
+footer{
+	background-color: #212529;
+	color: #fff;
+	padding-bottom: 60px;
+	padding-top: 30px;
+	padding-left: 90px;
+}
+footer img{
+	width: 240px;
+	padding-left: 30px;
+}
+footer .la-facebook-square, .la-instagram, .la-linkedin{
+	font-size: 45px;
+	color: #fff;
+	text-align: center;
+	padding-left: 30px;
+}
+#contacto h3{
+	padding-top: 30px;
+}
