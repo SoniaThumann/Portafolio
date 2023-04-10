@@ -30,6 +30,9 @@ span{
 #video p{
 	text-align: center;
 }
+#video{
+	display: block;
+}
 p {
    font-weight: 100 !important;
 	font-size: 20px;
@@ -149,7 +152,7 @@ h3{
 
 	background-size:cover;
 	background-position: center;
-	padding: 100px 0;
+	padding: 10px 0;
 }
 
 #acerca {
@@ -202,7 +205,7 @@ img{
 #fondo-community{
 	background-size:cover;
 	background-position: center;
-	padding: 100px 0;
+	padding: 10px 0;
 
 }
 
@@ -213,7 +216,92 @@ img{
 	font-size: 45px;
 	color: #fff;
 }
-
+.wrapper{
+   display: flex;
+   width: 100%;
+   height: calc(100vh - 80px);
+   justify-content: center;
+   align-items: center;
+   padding: 0 10%;
+   overflow: hidden;
+}
+.wrapper::before{
+   position: absolute;
+   content: '';
+   height: 500px;
+   width: 500px;
+   border-radius: 50%;
+   left: -12%;
+   top: 40%;
+   background: linear-gradient(45deg,#F90BB0,pink);
+   animation: object1 6s linear infinite;
+}
+.wrapper::after{
+   position: absolute;
+   content: '';
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+   left: 70%;
+   top: 15%;
+   background: linear-gradient(45deg,#F90BB0,pink);
+   animation: object2 6s linear infinite;
+}
+@keyframes  object1{
+   50%{
+      left: -14%;
+      top: 41%;
+   }
+}
+@keyframes  object2{
+   50%{
+      left: 71%;
+      top: 17%;
+   }
+}
+.wrappercm{
+   display: flex;
+   width: 100%;
+   height: calc(100vh - 80px);
+   justify-content: center;
+   align-items: center;
+   padding: 0 10%;
+   overflow: hidden;
+}
+.wrappercm::before{
+   position: absolute;
+   content: '';
+   height: 400px;
+   width: 400px;
+   border-radius: 50%;
+   left: 72%;
+   top: 55%;
+   background: linear-gradient(45deg,#F90BB0,pink);
+   animation: object3 6s linear infinite;
+}
+.wrappercm::after{
+   position: absolute;
+   content: '';
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+   left: 17%;
+   top: 12%;
+   background: linear-gradient(45deg,#F90BB0,pink);
+   animation: object4 6s linear infinite;
+}
+@keyframes  object3{
+   50%{
+      left: 75%;
+      top: 51%;
+   }
+}
+@keyframes  object4{
+   50%{
+      left: 15%;
+      top: 10%;
+   }
+}
 #revistas h2{
 	font-family: 'Bodoni Moda', serif;
 	text-transform: uppercase;
